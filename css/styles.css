@@ -125,6 +125,7 @@ input:focus {
     width: 100px;
     margin-left: 7px;
     margin-right: 7px;
+    background-color: (--text-color);
 }
 
 #contacts a {
