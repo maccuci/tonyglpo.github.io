@@ -1,11 +1,16 @@
+@font-face {
+    font-family: FiraCode;
+    src: url("../font/FiraCode-Regular.ttf");
+}
+
 html {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: "Fira Code", serif;
-    font-size: 26pt;
+    font-family: FiraCode;
+    font-size: 20pt;
     /*background-color: #121212;*/
     background: var(--body-bg);
     padding: 20px;
