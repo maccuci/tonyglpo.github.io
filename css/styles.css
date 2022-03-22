@@ -17,6 +17,10 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style-type: decimal;
+}
+
 h1 {
     font-size: 15pt;
     color: white;
@@ -77,27 +81,6 @@ progress::-moz-progress-bar {
     background: #3fb6b2;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
-}
-
-input {
-    text-align: center;
-    font-size: 25pt;
-    border: none;
-    border-radius: 12px;
-    padding: 30px 8%;
-    margin: 20px 5px 10px 5px;
-    background-color: #d7d7d7;
-}
-
-input:focus {
-    background-color: (--body-bg);
-    color: (--text-color);
-}
-
 #header {
     background-image: url("https://p.favim.com/orig/2018/09/02/universe-gif-trippy-Favim.com-6279772.gif");
     background-size: cover;
@@ -112,7 +95,7 @@ input:focus {
 
 #header p {
     font-size: 60pt;
-    color: (--text-color);
+    /*color: (--text-color);*/
     padding-top: 8px;
     margin: 0;
     font-weight: bold;
@@ -155,7 +138,7 @@ input:focus {
 }
 
 
-/* Dark Theme (BETA) */
+/* Simple Dark Theme (BETA) */
 
 @media(prefers-color-scheme: light) {
     body {
