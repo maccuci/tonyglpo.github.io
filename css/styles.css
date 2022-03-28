@@ -137,6 +137,10 @@ progress::-moz-progress-bar {
     color: grey;
 }
 
+.center-text {
+    text-align: center;
+}
+
 
 /* Simple Dark Theme (BETA) */
 
